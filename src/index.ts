@@ -1,9 +1,10 @@
-import express from "express";
+import cors from "cors";
 import dotenv from "dotenv";
+import express from "express";
 import connectDB from "./config/db";
+import swaggerUi from "swagger-ui-express";
 import taskRoutes from "./routes/taskRoutes";
 import authRoutes from "./routes/authRoutes";
-import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./utils/swagger";
 
 dotenv.config();
@@ -11,6 +12,13 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT ?? 3000;
 
+const corsOptions = {
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 connectDB();
