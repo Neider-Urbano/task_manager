@@ -6,7 +6,7 @@ Task Manager es una aplicación de gestión de tareas que permite a los usuarios
 
 ## Enlace a la aplicación desplegada
 
-Puedes acceder a la aplicación desplegada en Render en el siguiente enlace:
+Puedes acceder a la aplicación desplegada en Railway en el siguiente enlace:
 
 [**Enlace a la aplicación desplegada**](https://taskmanager-production-a0d6.up.railway.app/)
 
@@ -22,7 +22,7 @@ Puedes acceder a la aplicación desplegada en Render en el siguiente enlace:
   - Express-validator (para validación de datos)
   - Swagger (para documentación de la API)
   - Jest (para pruebas)
-  - Render
+  - Railway
 
 ## Pasos para instalar y ejecutar el proyecto localmente
 
