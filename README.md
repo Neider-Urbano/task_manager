@@ -8,7 +8,7 @@ Task Manager es una aplicación de gestión de tareas que permite a los usuarios
 
 Puedes acceder a la aplicación desplegada en Render en el siguiente enlace:
 
-[**Enlace a la aplicación desplegada**](https://tu-enlace-desplegado.com)
+[**Enlace a la aplicación desplegada**](https://taskmanager-production-a0d6.up.railway.app/)
 
 ## Tecnologías usadas
 
