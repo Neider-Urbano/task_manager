@@ -6,7 +6,7 @@ Task Manager es una aplicación de gestión de tareas que permite a los usuarios
 
 ## Enlace a la aplicación desplegada
 
-Puedes acceder a la aplicación desplegada en el siguiente enlace:
+Puedes acceder a la aplicación desplegada en Render en el siguiente enlace:
 
 [**Enlace a la aplicación desplegada**](https://tu-enlace-desplegado.com)
 
@@ -22,6 +22,7 @@ Puedes acceder a la aplicación desplegada en el siguiente enlace:
   - Express-validator (para validación de datos)
   - Swagger (para documentación de la API)
   - Jest (para pruebas)
+  - Render
 
 ## Pasos para instalar y ejecutar el proyecto localmente
 
@@ -30,8 +31,8 @@ Puedes acceder a la aplicación desplegada en el siguiente enlace:
 Primero, clona el repositorio del proyecto:
 
 ```bash
-git clone https://github.com/tu-usuario/task-manager.git
-cd task-manager
+git clone https://github.com/Neider-Urbano/task_manager.git
+cd task_manager
 ```
 
 ### 2. Instalar las dependencias
@@ -75,6 +76,14 @@ npm run test
 ```
 
 Esto ejecutará Jest y mostrará los resultados de las pruebas en la terminal.
+
+## Documentación de los endpoints
+
+Una vez levantes el servidor del proyecto puedes acceder a la documentación de los endpoints usando la siguiente url:
+
+```bash
+http://localhost:3000/api-docs
+```
 
 ## Detalles de configuración
 
